@@ -8,8 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Grid Background="#000000">
-            <Image x:Name="RecordingIcon" Source="https://s-media-cache-ak0.pinimg.com/originals/63/ea/7b/63ea7bc8ade0d560728dbe29a9bfe091.gif" IsTapEnabled="True" Tapped="RecordingIcon_Tapped"/>
+        <Grid Background="#FFFFFF" >
+            <Image x:Name="RecordingIcon"   IsTapEnabled="True" Tapped="RecordingIcon_Tapped" Source="Assets/unnamed.png" VerticalAlignment="Center" HorizontalAlignment="Center" Height="200"/>
+            <TextBlock  x:Name="textBox" HorizontalAlignment="Left" Margin="607,608,0,0" TextWrapping="Wrap" Text="Tap to start recording" VerticalAlignment="Top" FontSize="25"/>
+            <TextBlock x:Name="textBox1" HorizontalAlignment="Left" Margin="611,205,0,0" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" Height="73" Width="233" FontSize="55"/>
         </Grid>
     </Grid>
 </Page>

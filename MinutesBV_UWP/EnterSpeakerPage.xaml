@@ -29,6 +29,7 @@
             <TextBox HorizontalAlignment="Left" Margin="924,300,0,0" TextWrapping="Wrap" PlaceholderText="Enter Name" VerticalAlignment="Top" Height="54" Width="307"/>
             <TextBox HorizontalAlignment="Left" Margin="924,400,0,0" TextWrapping="Wrap" PlaceholderText="Enter Name" VerticalAlignment="Top" Height="54" Width="307"/>
             <TextBox HorizontalAlignment="Left" Margin="924,500,0,0" TextWrapping="Wrap" PlaceholderText="Enter Name" VerticalAlignment="Top" Height="54" Width="307"/>
+            <MediaElement x:Name="mediaElement" HorizontalAlignment="Left" Height="44" Margin="90,212,0,0" VerticalAlignment="Top" Width="259" Source="Assets/Recording.wav"/>
 
 
 
